@@ -1,16 +1,16 @@
 body {
-margin-left: 10%;
-margin-right: 10%;
-margin-bottom: 10%;
-height: 100vh;
-font-family: 'Helvetica', 'Arial', sans-serif;
-color: white;
-font-size: 16px;
-text-align: center;
-background-color: #010e38;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    height: 100vh;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: #010e38;
 }
 
-#Steve-Jobs{
+#Steve-Jobs {
     width: 500px;
     height: auto;
     border-radius: 5%;
@@ -18,7 +18,7 @@ background-color: #010e38;
 }
 
 
-a{
+a {
     color: papayawhip;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 12pt;
@@ -28,7 +28,7 @@ a{
 }
 
 
-#iphone2g{
+#iphone2g {
     width: 500px;
     height: auto;
     border-radius: 5%;
@@ -36,14 +36,14 @@ a{
 }
 
 
-#ipad{
+#ipad {
     width: 500px;
     height: auto;
     border-radius: 5%;
     border-style: solid;
 }
 
-#mac{
+#mac {
     width: 500px;
     height: auto;
     border-radius: 5%;
@@ -51,16 +51,42 @@ a{
 }
 
 
-#applelogo1{
+#applelogo1 {
     width: 500px;
     height: auto;
     border-radius: 5%;
     border-style: solid;
 }
 
-#applepark1{
+#applepark1 {
     width: 500px;
     height: auto;
     border-radius: 5%;
     border-style: solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.75rem auto;
+    transition: transform 240ms cubic-bezier(.2, .9, .2, 1), box-shadow 240ms ease, filter 240ms ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 1px 3px rgba(255, 255, 255, 0.02) inset;
+    border-radius: 8px;
+    transform: translateZ(0);
+    will-change: transform, box-shadow;
+}
+
+.gallery {
+    perspective: 900px;
+}
+
+.gallery img {
+    border-radius: 12px;
+}
+
+img:hover {
+    transform: translateY(-8px) rotateX(3deg) scale(1.03);
+    box-shadow: 0 22px 50px rgba(0, 0, 0, 0.6), 0 8px 18px rgba(0, 0, 0, 0.35);
+    filter: brightness(1.03) saturate(1.06);
 }
