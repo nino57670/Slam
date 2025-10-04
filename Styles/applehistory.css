@@ -14,7 +14,7 @@ background-color: #010e38;
     width: 500px;
     height: auto;
     border-radius: 5%;
-    border-style: dashed;
+    border-style: solid;
 }
 
 
@@ -32,7 +32,7 @@ a{
     width: 500px;
     height: auto;
     border-radius: 5%;
-    border-style: dashed;
+    border-style: solid;
 }
 
 
@@ -40,14 +40,14 @@ a{
     width: 500px;
     height: auto;
     border-radius: 5%;
-    border-style: dashed;
+    border-style: solid;
 }
 
 #mac{
     width: 500px;
     height: auto;
     border-radius: 5%;
-    border-style: dashed;
+    border-style: solid;
 }
 
 
@@ -55,12 +55,12 @@ a{
     width: 500px;
     height: auto;
     border-radius: 5%;
-    border-style: dashed;
+    border-style: solid;
 }
 
 #applepark1{
     width: 500px;
     height: auto;
     border-radius: 5%;
-    border-style: dashed;
+    border-style: solid;
 }
