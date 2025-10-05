@@ -29,6 +29,10 @@ a {
     border-style: solid;
 }
 
+a:hover {
+    background: rgb(42, 42, 112);
+}
+
 
 #iphone2g {
     width: 500px;
