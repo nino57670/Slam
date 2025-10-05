@@ -26,10 +26,6 @@ a {
     color: white;
     background: rgb(9, 9, 112);
     border-radius: 12px;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    position: relative;
-    overflow: hidden;
     border-style: solid;
 }
 
