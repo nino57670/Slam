@@ -27,12 +27,6 @@ a {
     background: rgb(9, 9, 112);
     border-radius: 12px;
     border-style: solid;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0.75rem auto;
-    transition: transform 240ms cubic-bezier(.2, .9, .2, 1), box-shadow 240ms ease, filter 240ms ease;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 1px 3px rgba(255, 255, 255, 0.02) inset;
 }
 
 a:hover {
