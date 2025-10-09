@@ -5,6 +5,7 @@ a {
     border-radius: 0;
     background-color: transparent;
     background-image: none;
+    cursor: pointer;
     height: auto;
     color: #ccc;
     text-align: center;
@@ -54,3 +55,4 @@ footer {
     font-size: 14px;
     color: #fff;
 }
+
